@@ -22,4 +22,6 @@ void PrintArray(int[] bla)
         Console.Write(", ");
     }
 }
+Console.Write("Array[");
 PrintArray(arr);
+Console.Write("]");
